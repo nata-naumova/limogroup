@@ -1,0 +1,23 @@
+.partners {
+    margin-top: 140px;
+}
+
+.partners__list {
+    background: var(--color-white);
+    border-radius: 20px;
+    padding: 75px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.partners__item {
+    padding: 0 5px;
+}
+
+.partners__image {
+    max-width: 250px;
+    max-height: 95px;
+    object-fit: cover;
+}
