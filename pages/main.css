@@ -1,0 +1,12 @@
+/* ====== Подключение шрифтов ====== */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Red+Hat+Display:wght@400;500;600;700;900&display=swap');
+
+/* ====== Подключение общих настроек ====== */
+@import url('../vendor/normalize.css');
+@import url('../blocks/settings.css');
+/*
+font-family: 'Nova Square', cursive;
+*/
+
+/* ====== Подключение блоков ====== */
+@import url('../blocks/services/services.css');
