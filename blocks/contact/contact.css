@@ -1,0 +1,104 @@
+.contact {
+    margin-bottom: 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact__title{
+    margin-bottom: 6px;
+}
+
+.contact__subtitle {
+    margin-bottom: 73px;
+}
+
+.contact__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 92px;
+    padding: 25px 0;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.contact__input {
+    height: 63px;
+    border-radius: 10px; 
+    margin-bottom: 30px;
+    padding: 16px 27px;
+    background-color: var(--color-bg-gray); 
+}
+
+.contact__textarea {
+    height: 175px;
+    border-radius: 10px;
+    resize: none;
+    padding: 16px 27px;
+    margin-bottom: 65px;
+    background-color: var(--color-bg-gray);
+}
+
+.contact__btn {
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-right: 54px;
+    padding-left: 53px;
+    white-space: nowrap;
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: var(--color-bg-gray);
+    position: relative;
+    min-width: 26px;
+    height: 26px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="checkbox"]:after{
+    content: "";
+    width: 16px;
+    height: 18px;
+    background-image: url(../../images/check-agree.svg);
+    background-repeat: no-repeat;
+    display: none;
+}
+
+input[type="checkbox"]:checked:after{
+    display: block;
+}
+
+label{
+    cursor: pointer;
+}
+
+.contact__label{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact__img {
+    max-width: 667px;
+    height: 568px;
+}
+
+.contact__send{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__bg {
+    position: absolute;
+    z-index: -1;
+    top: 160px;
+}
