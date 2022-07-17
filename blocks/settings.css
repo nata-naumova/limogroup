@@ -17,6 +17,14 @@ p {
     margin: 0;
 }
 
+input,
+textarea {
+    outline: none;
+    border: none;
+    cursor: text;
+    color: var(--color-white);
+}
+
 button {
     outline: none;
     border: none;
