@@ -1,0 +1,48 @@
+.about {
+    margin-bottom: 90px;
+    overflow: hidden;
+}
+
+.about__title {
+    margin-bottom: 30px;
+}
+
+.about__subtitle{
+    margin-bottom: 46px;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 53px;
+    background: var(--color-bg-gray);
+    border-radius: 27px;
+    padding: 48px 53px 55px 55px;
+}
+
+.img-about {
+    border-radius: 17px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.about__inner-img {
+    max-width: 576px;
+    height: 411px;
+}
+
+.about__inner-text{
+    max-width: 645px;
+
+}
+
+.about__text{
+    line-height: 27px;
+    padding-bottom: 23px;
+}
+
+.about__bg{
+    position: absolute;
+    z-index: -1;
+    top: -350px;
+}
