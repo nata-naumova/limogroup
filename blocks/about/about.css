@@ -8,7 +8,7 @@
     margin-bottom: 30px;
 }
 
-.about__subtitle{
+.about__subtitle {
     margin-bottom: 46px;
 }
 
@@ -32,17 +32,17 @@
     height: 411px;
 }
 
-.about__inner-text{
+.about__inner-text {
     max-width: 645px;
 
 }
 
-.about__text{
+.about__text {
     line-height: 27px;
     padding-bottom: 23px;
 }
 
-.about__bg{
+.about__bg {
     position: absolute;
     z-index: -1;
     top: -350px;
