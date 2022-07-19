@@ -1,4 +1,6 @@
-.solution {}
+.solution {
+    padding: 0 10px;
+}
 
 .solution__container {
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(158.28deg, #FFF8E4 17.51%, rgba(255, 255, 255, 0) 61.97%);
