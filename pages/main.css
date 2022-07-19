@@ -7,6 +7,16 @@
 /*
 font-family: 'Nova Square', cursive;
 */
+/* ====== Брейк поинты ====== */
+/*
+@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 991px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 425px) {}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 320px) {}
+*/
 
 /* ====== Подключение блоков ====== */
 @import url('../blocks/services/services.css');
