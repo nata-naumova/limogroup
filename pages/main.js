@@ -1,4 +1,12 @@
 /* ====== Табы на главной ====== */
+let menuBtn = document.querySelector('.menu-btn');
+let menu = document.querySelector('.menu-wrapper');
+
+menuBtn.addEventListener('click', function () {
+    menuBtn.classList.toggle('active');
+    menu.classList.toggle('active');
+})
+/* ====== Табы на главной ====== */
 function handleTabs() {
     const tabNavs = document.querySelectorAll(".nav-tab");
     const tabPanes = document.querySelectorAll(".tab-pane");
